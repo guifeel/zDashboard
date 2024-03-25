@@ -169,25 +169,25 @@ export const TARGET_REALITY_DATA = [
 export const TOP_PRODUCTS_DATA = [
   {
     id: 1,
-    name: "Home Decor Range",
+    name: "家居装饰系列",
     popularityPercent: 70,
     salesPercent: 45,
   },
   {
     id: 2,
-    name: "Disney Princess Pink Bag 18'",
+    name: "迪士尼公主粉色包包18寸",
     popularityPercent: 60,
     salesPercent: 29,
   },
   {
     id: 3,
-    name: "Bathroom Essentials",
+    name: "浴室必备品",
     popularityPercent: 50,
     salesPercent: 18,
   },
   {
     id: 4,
-    name: "Apple Smartwatches",
+    name: "苹果智能手表",
     popularityPercent: 30,
     salesPercent: 25,
   },
