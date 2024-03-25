@@ -130,37 +130,37 @@ export const SALES_MAP_DATA = [
 
 export const TARGET_REALITY_DATA = [
   {
-    month: "Jan",
+    month: "一月",
     reality: 60,
     target: 80,
   },
   {
-    month: "Feb",
+    month: "二月",
     reality: 55,
     target: 75,
   },
   {
-    month: "Mar",
+    month: "三月",
     reality: 40,
     target: 90,
   },
   {
-    month: "Apr",
+    month: "四月",
     reality: 60,
     target: 70,
   },
   {
-    month: "May",
+    month: "五月",
     reality: 100,
     target: 75,
   },
   {
-    month: "Jun",
+    month: "六月",
     reality: 100,
     target: 75,
   },
   {
-    month: "Jul",
+    month: "七月",
     reality: 100,
     target: 75,
   },

@@ -1,8 +1,8 @@
-import { SalesMapWrap } from "./SalesMap.styles";
 import { ComposableMap, Geographies, Geography } from "react-simple-maps";
+import { SALES_MAP_DATA } from "../../../data/mockData";
 import geoJson from "../../../data/world-50m.v1.json";
 import { BlockContentWrap, BlockTitle } from "../../../styles/global/default";
-import { SALES_MAP_DATA } from "../../../data/mockData";
+import { SalesMapWrap } from "./SalesMap.styles";
 
 // REFERENCE LINK FOR WORLD50M JSON USAGE: https://gist.github.com/abrahamdu/50147e692857054c2bf88c443946e8a5
 
@@ -29,7 +29,7 @@ const SalesMap = () => {
     <SalesMapWrap>
       <div className="block-head">
         <BlockTitle className="block-title">
-          <h3>Sales Mapping by Country</h3>
+          <h3>按国家/地区划分的销售映射</h3>
         </BlockTitle>
       </div>
       <BlockContentWrap className="map-chart">

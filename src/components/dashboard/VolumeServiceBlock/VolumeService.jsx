@@ -1,7 +1,7 @@
+import { Bar, BarChart, Legend, ResponsiveContainer, Tooltip } from "recharts";
 import { VOLUME_SERVICE_DATA } from "../../../data/mockData";
 import { BlockContentWrap, BlockTitle } from "../../../styles/global/default";
 import { VolumeServiceWrap } from "./VolumeService.styles";
-import { BarChart, Bar, Tooltip, Legend, ResponsiveContainer } from "recharts";
 
 const formatLegendValue = (name, legendObj) => {
   const initialVal = 0;
@@ -24,7 +24,7 @@ const VolumeService = () => {
     <VolumeServiceWrap>
       <div className="block-head">
         <BlockTitle className="block-title">
-          <h3>Volume vs Service Level</h3>
+          <h3>销量和服务等级</h3>
         </BlockTitle>
       </div>
       <BlockContentWrap className="stacked-bar-chart">

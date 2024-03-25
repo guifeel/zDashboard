@@ -1,8 +1,8 @@
 import { Bar, BarChart, ResponsiveContainer, Tooltip, XAxis } from "recharts";
-import { TargetRealityWrap } from "./TargetReality.styles";
-import { BlockContentWrap, BlockTitle } from "../../../styles/global/default";
 import { Icons } from "../../../assets/icons";
 import { TARGET_REALITY_DATA } from "../../../data/mockData";
+import { BlockContentWrap, BlockTitle } from "../../../styles/global/default";
+import { TargetRealityWrap } from "./TargetReality.styles";
 
 const formatTooltipValue = (value) => {
   return `${value} sales`;
@@ -13,7 +13,7 @@ const TargetReality = () => {
     <TargetRealityWrap>
       <div className="block-head">
         <BlockTitle className="block-title">
-          <h3>Target vs. Reality</h3>
+          <h3>目标 vs 实际</h3>
         </BlockTitle>
       </div>
       <BlockContentWrap className="bar-chart">
@@ -71,8 +71,8 @@ const TargetReality = () => {
                 <img src={Icons.BagGreen} alt="" />
               </div>
               <div className="info-item-text">
-                <h4 className="info-item-title">Reality Sales</h4>
-                <p className="info-item-subtitle">Global</p>
+                <h4 className="info-item-title">现实销售</h4>
+                <p className="info-item-subtitle">全球</p>
               </div>
             </div>
             <div className="info-item-r">
@@ -85,8 +85,8 @@ const TargetReality = () => {
                 <img src={Icons.TicketYellow} alt="" />
               </div>
               <div className="info-item-text">
-                <h4 className="info-item-title">Target Sales</h4>
-                <p className="info-item-subtitle">Commercial</p>
+                <h4 className="info-item-title">销售目标</h4>
+                <p className="info-item-subtitle">贸易</p>
               </div>
             </div>
             <div className="info-item-r">
