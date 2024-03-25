@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import {
   Area,
   AreaChart,
@@ -5,10 +6,9 @@ import {
   ResponsiveContainer,
   Tooltip,
 } from "recharts";
-import { CustomerWrap } from "./Customer.styles";
-import { BlockContentWrap, BlockTitle } from "../../../styles/global/default";
 import { CUSTOMER_DATA } from "../../../data/mockData";
-import PropTypes from "prop-types";
+import { BlockContentWrap, BlockTitle } from "../../../styles/global/default";
+import { CustomerWrap } from "./Customer.styles";
 
 const formatLegendValue = (value, name) => {
   const initialVal = 0;
@@ -58,7 +58,7 @@ const Customer = () => {
     <CustomerWrap>
       <div className="block-head">
         <BlockTitle className="block-title">
-          <h3>Customer Satisfaction</h3>
+          <h3>客户满意度</h3>
         </BlockTitle>
       </div>
       <BlockContentWrap className="area-chart">

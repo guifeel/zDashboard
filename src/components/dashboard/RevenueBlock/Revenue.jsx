@@ -1,19 +1,19 @@
+import {
+  Bar,
+  BarChart,
+  CartesianGrid,
+  Legend,
+  ResponsiveContainer,
+  Tooltip,
+  XAxis,
+  YAxis,
+} from "recharts";
 import { REVENUE_DATA } from "../../../data/mockData";
 import { BlockContentWrap, BlockTitle } from "../../../styles/global/default";
 import { RevenueWrap } from "./Revenue.styles";
-import {
-  BarChart,
-  Bar,
-  XAxis,
-  YAxis,
-  CartesianGrid,
-  Tooltip,
-  Legend,
-  ResponsiveContainer,
-} from "recharts";
 
 const formatTooltipValue = (value) => {
-  return `${value} sales`;
+  return `${value}销售`;
 };
 
 const formatYAxisLabel = (value) => {
@@ -21,7 +21,7 @@ const formatYAxisLabel = (value) => {
 };
 
 const formatLegendValue = (value) => {
-  return value.charAt(0).toUpperCase() + value.slice(1) + " Sales";
+  return value.charAt(0).toUpperCase() + value.slice(1) + "销售";
 };
 
 const Revenue = () => {
@@ -29,7 +29,7 @@ const Revenue = () => {
     <RevenueWrap>
       <div className="block-head">
         <BlockTitle className="block-title">
-          <h3>Total Revenue</h3>
+          <h3>总收入</h3>
         </BlockTitle>
       </div>
       <BlockContentWrap className="bar-chart">
@@ -93,7 +93,7 @@ const Revenue = () => {
               }}
             />
             <Bar
-              dataKey="online"
+              dataKey="线上"
               fill="#0095FF"
               activeBar={false}
               isAnimationActive={false}
@@ -101,7 +101,7 @@ const Revenue = () => {
               barSize={18}
             />
             <Bar
-              dataKey="offline"
+              dataKey="线下"
               fill="#00E096"
               activeBar={false}
               isAnimationActive={false}

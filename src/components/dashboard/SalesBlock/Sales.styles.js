@@ -10,6 +10,7 @@ export const SalesBlockWrap = styled.div`
     align-items: baseline;
     justify-content: space-between;
     flex-wrap: wrap;
+    white-space: nowrap;
 
     .block-title {
       margin-bottom: 4px;

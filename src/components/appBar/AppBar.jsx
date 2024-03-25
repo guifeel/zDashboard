@@ -1,11 +1,11 @@
 import { useEffect, useRef, useState } from "react";
+import { MdOutlineMenu } from "react-icons/md";
+import { useDispatch } from "react-redux";
 import { Icons } from "../../assets/icons";
+import { setSidebarOpen } from "../../redux/slices/sidebarSlice";
 import { AppBarWrap } from "./AppBar.styles";
 import AppBarLang from "./AppBarLang";
 import AppBarProfile from "./AppBarProfile";
-import { MdOutlineMenu } from "react-icons/md";
-import { useDispatch } from "react-redux";
-import { setSidebarOpen } from "../../redux/slices/sidebarSlice";
 
 const AppBar = () => {
   const [showInputControl, setShowInputControl] = useState(false);
@@ -43,7 +43,7 @@ const AppBar = () => {
           >
             <MdOutlineMenu size={24} />
           </button>
-          <h3 className="appbar-title">Dashboard</h3>
+          <h3 className="appbar-title">仪表盘</h3>
         </div>
         <div className="appbar-right">
           <div className="appbar-search">

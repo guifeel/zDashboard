@@ -1,9 +1,9 @@
-import { Link } from "react-router-dom";
-import { Icons } from "../../assets/icons";
-import { SidebarWrap } from "./Sidebar.styles";
 import { MdOutlineClose } from "react-icons/md";
 import { useDispatch, useSelector } from "react-redux";
+import { Link } from "react-router-dom";
+import { Icons } from "../../assets/icons";
 import { setSidebarClose } from "../../redux/slices/sidebarSlice";
+import { SidebarWrap } from "./Sidebar.styles";
 
 const Sidebar = () => {
   const isSidebarOpen = useSelector((state) => state.sidebar.isSidebarOpen);
@@ -16,7 +16,7 @@ const Sidebar = () => {
           <span className="brand-logo">
             <img src={Icons.LogoWhite} alt="site brand logo" />
           </span>
-          <span className="brand-text">Thanos.</span>
+          <span className="brand-text">雷诺.</span>
         </div>
         <button
           className="sidebar-close-btn"
@@ -33,7 +33,7 @@ const Sidebar = () => {
                 <span className="menu-link-icon">
                   <img src={Icons.Chart} alt="" />
                 </span>
-                <span className="menu-link-text">Dashboard</span>
+                <span className="menu-link-text">仪表盘</span>
               </Link>
             </li>
             <li className="menu-item">
@@ -41,7 +41,7 @@ const Sidebar = () => {
                 <span className="menu-link-icon">
                   <img src={Icons.Graph} alt="" />
                 </span>
-                <span className="menu-link-text">Leaderboard</span>
+                <span className="menu-link-text">排行榜</span>
               </Link>
             </li>
             <li className="menu-item">
@@ -49,7 +49,7 @@ const Sidebar = () => {
                 <span className="menu-link-icon">
                   <img src={Icons.Cart} alt="" />
                 </span>
-                <span className="menu-link-text">Order</span>
+                <span className="menu-link-text">订单</span>
               </Link>
             </li>
             <li className="menu-item">
@@ -57,7 +57,7 @@ const Sidebar = () => {
                 <span className="menu-link-icon">
                   <img src={Icons.Bag} alt="" />
                 </span>
-                <span className="menu-link-text">Products</span>
+                <span className="menu-link-text">产品</span>
               </Link>
             </li>
             <li className="menu-item">
@@ -65,7 +65,7 @@ const Sidebar = () => {
                 <span className="menu-link-icon">
                   <img src={Icons.Analytics} alt="" />
                 </span>
-                <span className="menu-link-text">Sales Report</span>
+                <span className="menu-link-text">销售报告</span>
               </Link>
             </li>
             <li className="menu-item">
@@ -73,7 +73,7 @@ const Sidebar = () => {
                 <span className="menu-link-icon">
                   <img src={Icons.Message} alt="" />
                 </span>
-                <span className="menu-link-text">Messages</span>
+                <span className="menu-link-text">消息</span>
               </Link>
             </li>
             <li className="menu-item">
@@ -81,7 +81,7 @@ const Sidebar = () => {
                 <span className="menu-link-icon">
                   <img src={Icons.Cog} alt="" />
                 </span>
-                <span className="menu-link-text">Settings</span>
+                <span className="menu-link-text">设置</span>
               </Link>
             </li>
             <li className="menu-item">
@@ -89,7 +89,7 @@ const Sidebar = () => {
                 <span className="menu-link-icon">
                   <img src={Icons.SignOut} alt="" />
                 </span>
-                <span className="menu-link-text">Sign Out</span>
+                <span className="menu-link-text">登出</span>
               </Link>
             </li>
           </ul>

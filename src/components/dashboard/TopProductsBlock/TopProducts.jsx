@@ -7,17 +7,17 @@ const TopProducts = () => {
     <TopProductsWrap>
       <div className="block-head">
         <BlockTitle className="block-title">
-          <h3>Top Products</h3>
+          <h3>顶级产品</h3>
         </BlockTitle>
       </div>
       <div className="tbl-products">
         <table>
           <thead>
             <tr>
-              <th># </th>
-              <th>Name </th>
-              <th>Popularity </th>
-              <th>Sales</th>
+              <th>TOP</th>
+              <th>产品名</th>
+              <th>热度</th>
+              <th>售出</th>
             </tr>
           </thead>
           <tbody>
