@@ -62,7 +62,7 @@ const AppBar = () => {
                 <input
                   ref={inputControlRef}
                   type="text"
-                  placeholder="Search here ..."
+                  placeholder="搜索..."
                   className={`input-control ${
                     showInputControl ? "show-input-control" : ""
                   }`}

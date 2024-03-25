@@ -4,19 +4,19 @@ const langData = [
   {
     id: 1,
     name: "English",
-    country_abbr: "US",
+    country_abbr: "美国",
     flag: Images.UsaFlag,
   },
   {
     id: 2,
     name: "French",
-    country_abbr: "FRA",
+    country_abbr: "法国",
     flag: Images.FranceFlag,
   },
   {
     id: 3,
     name: "English",
-    country_abbr: "CAN",
+    country_abbr: "加拿大",
     flag: Images.CanadaFlag,
   },
 ];
