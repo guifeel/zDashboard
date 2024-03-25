@@ -1,19 +1,19 @@
+import PropTypes from "prop-types";
 import {
-  LineChart,
-  Line,
-  XAxis,
-  YAxis,
   CartesianGrid,
-  Tooltip,
+  Dot,
   Legend,
+  Line,
+  LineChart,
   ReferenceLine,
   ResponsiveContainer,
-  Dot,
+  Tooltip,
+  XAxis,
+  YAxis,
 } from "recharts";
-import { BlockContentWrap, BlockTitle } from "../../../styles/global/default";
-import PropTypes from "prop-types";
-import { VisitorsBlockWrap } from "./Visitors.styles";
 import { VISITORS_DATA } from "../../../data/mockData";
+import { BlockContentWrap, BlockTitle } from "../../../styles/global/default";
+import { VisitorsBlockWrap } from "./Visitors.styles";
 
 const formatLegendValue = (value) => {
   return value.replace("_", " ");
@@ -52,7 +52,7 @@ const VisitorsBlock = () => {
     <VisitorsBlockWrap>
       <div className="block-head">
         <BlockTitle className="block-title">
-          <h3>Visitor Insights</h3>
+          <h3>访客趋势</h3>
         </BlockTitle>
       </div>
       <BlockContentWrap className="line-chart">
@@ -113,21 +113,21 @@ const VisitorsBlock = () => {
               dot={false}
               strokeWidth={4}
               type="basis"
-              dataKey="loyal_customer"
+              dataKey="老客户"
               stroke="#A700FF"
             />
             <Line
               dot={false}
               strokeWidth={4}
               type="basis"
-              dataKey="new_customer"
+              dataKey="新客户"
               stroke="#F64E60"
             />
             <Line
               dot={false}
               strokeWidth={4}
               type="basis"
-              dataKey="unique_customer"
+              dataKey="特殊群体"
               stroke="#3CD856"
             />
           </LineChart>
