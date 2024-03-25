@@ -39,39 +39,39 @@ export const REVENUE_DATA = [
 export const CUSTOMER_DATA = [
   {
     month: "一月",
-    last_month: 400,
-    this_month: 240,
+    上月: 400,
+    本月: 240,
   },
   {
     month: "二月",
-    last_month: 300,
-    this_month: 139,
+    上月: 300,
+    本月: 139,
   },
   {
     month: "三月",
-    last_month: 400,
-    this_month: 180,
+    上月: 400,
+    本月: 180,
   },
   {
     month: "四月",
-    last_month: 278,
-    this_month: 190,
+    上月: 278,
+    本月: 190,
     amt: 2000,
   },
   {
     month: "五月",
-    last_month: 189,
-    this_month: 480,
+    上月: 189,
+    本月: 480,
   },
   {
     month: "六月",
-    last_month: 239,
-    this_month: 380,
+    上月: 239,
+    本月: 380,
   },
   {
     month: "七月",
-    last_month: 349,
-    this_month: 430,
+    上月: 349,
+    本月: 430,
   },
 ];
 
@@ -131,38 +131,38 @@ export const SALES_MAP_DATA = [
 export const TARGET_REALITY_DATA = [
   {
     month: "一月",
-    reality: 60,
-    target: 80,
+    实际: 60,
+    目标: 80,
   },
   {
     month: "二月",
-    reality: 55,
-    target: 75,
+    实际: 55,
+    目标: 75,
   },
   {
     month: "三月",
-    reality: 40,
-    target: 90,
+    实际: 40,
+    目标: 90,
   },
   {
     month: "四月",
-    reality: 60,
-    target: 70,
+    实际: 60,
+    目标: 70,
   },
   {
     month: "五月",
-    reality: 100,
-    target: 75,
+    实际: 100,
+    目标: 75,
   },
   {
     month: "六月",
-    reality: 100,
-    target: 75,
+    实际: 100,
+    目标: 75,
   },
   {
     month: "七月",
-    reality: 100,
-    target: 75,
+    实际: 100,
+    目标: 75,
   },
 ];
 
@@ -271,37 +271,37 @@ export const VISITORS_DATA = [
 export const VOLUME_SERVICE_DATA = [
   {
     name: "A",
-    volume: 400,
-    services: 240,
+    目标: 400,
+    服务: 240,
   },
   {
     name: "B",
-    volume: 300,
-    services: 139,
+    目标: 300,
+    服务: 139,
   },
   {
     name: "C",
-    volume: 200,
-    services: 980,
+    目标: 200,
+    服务: 980,
   },
   {
     name: "D",
-    volume: 278,
-    services: 390,
+    目标: 278,
+    服务: 390,
   },
   {
     name: "E",
-    volume: 189,
-    services: 480,
+    目标: 189,
+    服务: 480,
   },
   {
     name: "F",
-    volume: 239,
-    services: 380,
+    目标: 239,
+    服务: 380,
   },
   {
     name: "G",
-    volume: 349,
-    services: 430,
+    目标: 349,
+    服务: 430,
   },
 ];

@@ -82,7 +82,7 @@ const Customer = () => {
             <Tooltip content={<CustomTooltipContent />} />
             <Area
               type="monotone"
-              dataKey="last_month"
+              dataKey="上月"
               stroke="#0095FF"
               fillOpacity={1}
               fill="url(#colorUv)"
@@ -95,7 +95,7 @@ const Customer = () => {
             <Legend formatter={formatLegendValue} />
             <Area
               type="monotone"
-              dataKey="this_month"
+              dataKey="本月"
               stroke="#07E098"
               fillOpacity={1}
               fill="url(#colorPv)"

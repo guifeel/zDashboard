@@ -46,14 +46,14 @@ const VolumeService = () => {
               formatter={formatLegendValue}
             />
             <Bar
-              dataKey="volume"
+              dataKey="目标"
               stackId="a"
               fill="#0095FF"
               radius={[0, 0, 4, 4]}
               barSize={16}
             />
             <Bar
-              dataKey="services"
+              dataKey="服务"
               stackId="a"
               fill="#00E096"
               radius={[4, 4, 0, 0]}

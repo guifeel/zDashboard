@@ -5,7 +5,7 @@ import { BlockContentWrap, BlockTitle } from "../../../styles/global/default";
 import { TargetRealityWrap } from "./TargetReality.styles";
 
 const formatTooltipValue = (value) => {
-  return `${value} sales`;
+  return `售出 ${value}`;
 };
 
 const TargetReality = () => {
@@ -28,13 +28,13 @@ const TargetReality = () => {
             }}
           >
             <Bar
-              dataKey="reality"
+              dataKey="实际"
               fill="#4ab58e"
               radius={[4, 4, 4, 4]}
               barSize={16}
             />
             <Bar
-              dataKey="target"
+              dataKey="目标"
               fill="#ffcf00"
               radius={[4, 4, 4, 4]}
               barSize={16}
